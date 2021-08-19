@@ -1,0 +1,678 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		948FB08B26CDE2F2006A0C82 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 948FB08A26CDE2F2006A0C82 /* AppDelegate.swift */; };
+		948FB08D26CDE2F2006A0C82 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 948FB08C26CDE2F2006A0C82 /* SceneDelegate.swift */; };
+		948FB08F26CDE2F2006A0C82 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 948FB08E26CDE2F2006A0C82 /* ViewController.swift */; };
+		948FB09226CDE2F2006A0C82 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 948FB09026CDE2F2006A0C82 /* Main.storyboard */; };
+		948FB09426CDE2F3006A0C82 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 948FB09326CDE2F3006A0C82 /* Assets.xcassets */; };
+		948FB09726CDE2F3006A0C82 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 948FB09526CDE2F3006A0C82 /* LaunchScreen.storyboard */; };
+		948FB0A226CDE2F3006A0C82 /* intuneTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 948FB0A126CDE2F3006A0C82 /* intuneTests.swift */; };
+		948FB0AD26CDE2F4006A0C82 /* intuneUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 948FB0AC26CDE2F4006A0C82 /* intuneUITests.swift */; };
+		948FB0BD26CDE35C006A0C82 /* IntuneMAMSwiftStub.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 948FB0BB26CDE35C006A0C82 /* IntuneMAMSwiftStub.xcframework */; };
+		948FB0BE26CDE35C006A0C82 /* IntuneMAMSwiftStub.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 948FB0BB26CDE35C006A0C82 /* IntuneMAMSwiftStub.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		948FB0BF26CDE35C006A0C82 /* IntuneMAMSwift.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 948FB0BC26CDE35C006A0C82 /* IntuneMAMSwift.xcframework */; };
+		948FB0C026CDE35C006A0C82 /* IntuneMAMSwift.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 948FB0BC26CDE35C006A0C82 /* IntuneMAMSwift.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		948FB0C526CDE3AE006A0C82 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 948FB0C426CDE3AE006A0C82 /* MessageUI.framework */; };
+		948FB0C726CDE3B6006A0C82 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 948FB0C626CDE3B5006A0C82 /* Security.framework */; };
+		948FB0C926CDE3BA006A0C82 /* CoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 948FB0C826CDE3BA006A0C82 /* CoreServices.framework */; };
+		948FB0CB26CDE3C0006A0C82 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 948FB0CA26CDE3C0006A0C82 /* SystemConfiguration.framework */; };
+		948FB0CD26CDE3CC006A0C82 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 948FB0CC26CDE3CC006A0C82 /* libsqlite3.tbd */; };
+		948FB0CF26CDE3D5006A0C82 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 948FB0CE26CDE3D5006A0C82 /* libc++.tbd */; };
+		948FB0D126CDE3DB006A0C82 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 948FB0D026CDE3DB006A0C82 /* ImageIO.framework */; };
+		948FB0D326CDE3E0006A0C82 /* LocalAuthentication.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 948FB0D226CDE3E0006A0C82 /* LocalAuthentication.framework */; };
+		948FB0D526CDE3E4006A0C82 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 948FB0D426CDE3E4006A0C82 /* AudioToolbox.framework */; };
+		948FB0D726CDE3E9006A0C82 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 948FB0D626CDE3E9006A0C82 /* QuartzCore.framework */; };
+		948FB0D926CDE3ED006A0C82 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 948FB0D826CDE3ED006A0C82 /* WebKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		948FB09E26CDE2F3006A0C82 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 948FB07F26CDE2F2006A0C82 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 948FB08626CDE2F2006A0C82;
+			remoteInfo = intune;
+		};
+		948FB0A926CDE2F4006A0C82 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 948FB07F26CDE2F2006A0C82 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 948FB08626CDE2F2006A0C82;
+			remoteInfo = intune;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		948FB0C126CDE35D006A0C82 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				948FB0C026CDE35C006A0C82 /* IntuneMAMSwift.xcframework in Embed Frameworks */,
+				948FB0BE26CDE35C006A0C82 /* IntuneMAMSwiftStub.xcframework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		948FB08726CDE2F2006A0C82 /* intune.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = intune.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		948FB08A26CDE2F2006A0C82 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		948FB08C26CDE2F2006A0C82 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		948FB08E26CDE2F2006A0C82 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		948FB09126CDE2F2006A0C82 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		948FB09326CDE2F3006A0C82 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		948FB09626CDE2F3006A0C82 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		948FB09826CDE2F3006A0C82 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		948FB09D26CDE2F3006A0C82 /* intuneTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = intuneTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		948FB0A126CDE2F3006A0C82 /* intuneTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = intuneTests.swift; sourceTree = "<group>"; };
+		948FB0A326CDE2F3006A0C82 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		948FB0A826CDE2F4006A0C82 /* intuneUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = intuneUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		948FB0AC26CDE2F4006A0C82 /* intuneUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = intuneUITests.swift; sourceTree = "<group>"; };
+		948FB0AE26CDE2F4006A0C82 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		948FB0BB26CDE35C006A0C82 /* IntuneMAMSwiftStub.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = IntuneMAMSwiftStub.xcframework; path = "../../../Downloads/ms-intune-app-sdk-ios-14.6.2/IntuneMAMSwiftStub.xcframework"; sourceTree = "<group>"; };
+		948FB0BC26CDE35C006A0C82 /* IntuneMAMSwift.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = IntuneMAMSwift.xcframework; path = "../../../Downloads/ms-intune-app-sdk-ios-14.6.2/IntuneMAMSwift.xcframework"; sourceTree = "<group>"; };
+		948FB0C226CDE38A006A0C82 /* IntuneMAMResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = IntuneMAMResources.bundle; sourceTree = "<group>"; };
+		948FB0C426CDE3AE006A0C82 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		948FB0C626CDE3B5006A0C82 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		948FB0C826CDE3BA006A0C82 /* CoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreServices.framework; path = System/Library/Frameworks/CoreServices.framework; sourceTree = SDKROOT; };
+		948FB0CA26CDE3C0006A0C82 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		948FB0CC26CDE3CC006A0C82 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		948FB0CE26CDE3D5006A0C82 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		948FB0D026CDE3DB006A0C82 /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
+		948FB0D226CDE3E0006A0C82 /* LocalAuthentication.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = LocalAuthentication.framework; path = System/Library/Frameworks/LocalAuthentication.framework; sourceTree = SDKROOT; };
+		948FB0D426CDE3E4006A0C82 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		948FB0D626CDE3E9006A0C82 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		948FB0D826CDE3ED006A0C82 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		948FB08426CDE2F2006A0C82 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				948FB0D926CDE3ED006A0C82 /* WebKit.framework in Frameworks */,
+				948FB0D726CDE3E9006A0C82 /* QuartzCore.framework in Frameworks */,
+				948FB0D526CDE3E4006A0C82 /* AudioToolbox.framework in Frameworks */,
+				948FB0D326CDE3E0006A0C82 /* LocalAuthentication.framework in Frameworks */,
+				948FB0D126CDE3DB006A0C82 /* ImageIO.framework in Frameworks */,
+				948FB0CF26CDE3D5006A0C82 /* libc++.tbd in Frameworks */,
+				948FB0CD26CDE3CC006A0C82 /* libsqlite3.tbd in Frameworks */,
+				948FB0CB26CDE3C0006A0C82 /* SystemConfiguration.framework in Frameworks */,
+				948FB0C926CDE3BA006A0C82 /* CoreServices.framework in Frameworks */,
+				948FB0C726CDE3B6006A0C82 /* Security.framework in Frameworks */,
+				948FB0C526CDE3AE006A0C82 /* MessageUI.framework in Frameworks */,
+				948FB0BF26CDE35C006A0C82 /* IntuneMAMSwift.xcframework in Frameworks */,
+				948FB0BD26CDE35C006A0C82 /* IntuneMAMSwiftStub.xcframework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		948FB09A26CDE2F3006A0C82 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		948FB0A526CDE2F4006A0C82 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		948FB07E26CDE2F2006A0C82 = {
+			isa = PBXGroup;
+			children = (
+				948FB0C226CDE38A006A0C82 /* IntuneMAMResources.bundle */,
+				948FB08926CDE2F2006A0C82 /* intune */,
+				948FB0A026CDE2F3006A0C82 /* intuneTests */,
+				948FB0AB26CDE2F4006A0C82 /* intuneUITests */,
+				948FB08826CDE2F2006A0C82 /* Products */,
+				948FB0BA26CDE35C006A0C82 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		948FB08826CDE2F2006A0C82 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				948FB08726CDE2F2006A0C82 /* intune.app */,
+				948FB09D26CDE2F3006A0C82 /* intuneTests.xctest */,
+				948FB0A826CDE2F4006A0C82 /* intuneUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		948FB08926CDE2F2006A0C82 /* intune */ = {
+			isa = PBXGroup;
+			children = (
+				948FB08A26CDE2F2006A0C82 /* AppDelegate.swift */,
+				948FB08C26CDE2F2006A0C82 /* SceneDelegate.swift */,
+				948FB08E26CDE2F2006A0C82 /* ViewController.swift */,
+				948FB09026CDE2F2006A0C82 /* Main.storyboard */,
+				948FB09326CDE2F3006A0C82 /* Assets.xcassets */,
+				948FB09526CDE2F3006A0C82 /* LaunchScreen.storyboard */,
+				948FB09826CDE2F3006A0C82 /* Info.plist */,
+			);
+			path = intune;
+			sourceTree = "<group>";
+		};
+		948FB0A026CDE2F3006A0C82 /* intuneTests */ = {
+			isa = PBXGroup;
+			children = (
+				948FB0A126CDE2F3006A0C82 /* intuneTests.swift */,
+				948FB0A326CDE2F3006A0C82 /* Info.plist */,
+			);
+			path = intuneTests;
+			sourceTree = "<group>";
+		};
+		948FB0AB26CDE2F4006A0C82 /* intuneUITests */ = {
+			isa = PBXGroup;
+			children = (
+				948FB0AC26CDE2F4006A0C82 /* intuneUITests.swift */,
+				948FB0AE26CDE2F4006A0C82 /* Info.plist */,
+			);
+			path = intuneUITests;
+			sourceTree = "<group>";
+		};
+		948FB0BA26CDE35C006A0C82 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				948FB0D826CDE3ED006A0C82 /* WebKit.framework */,
+				948FB0D626CDE3E9006A0C82 /* QuartzCore.framework */,
+				948FB0D426CDE3E4006A0C82 /* AudioToolbox.framework */,
+				948FB0D226CDE3E0006A0C82 /* LocalAuthentication.framework */,
+				948FB0D026CDE3DB006A0C82 /* ImageIO.framework */,
+				948FB0CE26CDE3D5006A0C82 /* libc++.tbd */,
+				948FB0CC26CDE3CC006A0C82 /* libsqlite3.tbd */,
+				948FB0CA26CDE3C0006A0C82 /* SystemConfiguration.framework */,
+				948FB0C826CDE3BA006A0C82 /* CoreServices.framework */,
+				948FB0C626CDE3B5006A0C82 /* Security.framework */,
+				948FB0C426CDE3AE006A0C82 /* MessageUI.framework */,
+				948FB0BC26CDE35C006A0C82 /* IntuneMAMSwift.xcframework */,
+				948FB0BB26CDE35C006A0C82 /* IntuneMAMSwiftStub.xcframework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		948FB08626CDE2F2006A0C82 /* intune */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 948FB0B126CDE2F4006A0C82 /* Build configuration list for PBXNativeTarget "intune" */;
+			buildPhases = (
+				948FB08326CDE2F2006A0C82 /* Sources */,
+				948FB08426CDE2F2006A0C82 /* Frameworks */,
+				948FB08526CDE2F2006A0C82 /* Resources */,
+				948FB0C126CDE35D006A0C82 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = intune;
+			productName = intune;
+			productReference = 948FB08726CDE2F2006A0C82 /* intune.app */;
+			productType = "com.apple.product-type.application";
+		};
+		948FB09C26CDE2F3006A0C82 /* intuneTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 948FB0B426CDE2F4006A0C82 /* Build configuration list for PBXNativeTarget "intuneTests" */;
+			buildPhases = (
+				948FB09926CDE2F3006A0C82 /* Sources */,
+				948FB09A26CDE2F3006A0C82 /* Frameworks */,
+				948FB09B26CDE2F3006A0C82 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				948FB09F26CDE2F3006A0C82 /* PBXTargetDependency */,
+			);
+			name = intuneTests;
+			productName = intuneTests;
+			productReference = 948FB09D26CDE2F3006A0C82 /* intuneTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		948FB0A726CDE2F4006A0C82 /* intuneUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 948FB0B726CDE2F4006A0C82 /* Build configuration list for PBXNativeTarget "intuneUITests" */;
+			buildPhases = (
+				948FB0A426CDE2F4006A0C82 /* Sources */,
+				948FB0A526CDE2F4006A0C82 /* Frameworks */,
+				948FB0A626CDE2F4006A0C82 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				948FB0AA26CDE2F4006A0C82 /* PBXTargetDependency */,
+			);
+			name = intuneUITests;
+			productName = intuneUITests;
+			productReference = 948FB0A826CDE2F4006A0C82 /* intuneUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		948FB07F26CDE2F2006A0C82 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					948FB08626CDE2F2006A0C82 = {
+						CreatedOnToolsVersion = 12.5;
+					};
+					948FB09C26CDE2F3006A0C82 = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = 948FB08626CDE2F2006A0C82;
+					};
+					948FB0A726CDE2F4006A0C82 = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = 948FB08626CDE2F2006A0C82;
+					};
+				};
+			};
+			buildConfigurationList = 948FB08226CDE2F2006A0C82 /* Build configuration list for PBXProject "intune" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 948FB07E26CDE2F2006A0C82;
+			productRefGroup = 948FB08826CDE2F2006A0C82 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				948FB08626CDE2F2006A0C82 /* intune */,
+				948FB09C26CDE2F3006A0C82 /* intuneTests */,
+				948FB0A726CDE2F4006A0C82 /* intuneUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		948FB08526CDE2F2006A0C82 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				948FB09726CDE2F3006A0C82 /* LaunchScreen.storyboard in Resources */,
+				948FB09426CDE2F3006A0C82 /* Assets.xcassets in Resources */,
+				948FB09226CDE2F2006A0C82 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		948FB09B26CDE2F3006A0C82 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		948FB0A626CDE2F4006A0C82 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		948FB08326CDE2F2006A0C82 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				948FB08F26CDE2F2006A0C82 /* ViewController.swift in Sources */,
+				948FB08B26CDE2F2006A0C82 /* AppDelegate.swift in Sources */,
+				948FB08D26CDE2F2006A0C82 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		948FB09926CDE2F3006A0C82 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				948FB0A226CDE2F3006A0C82 /* intuneTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		948FB0A426CDE2F4006A0C82 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				948FB0AD26CDE2F4006A0C82 /* intuneUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		948FB09F26CDE2F3006A0C82 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 948FB08626CDE2F2006A0C82 /* intune */;
+			targetProxy = 948FB09E26CDE2F3006A0C82 /* PBXContainerItemProxy */;
+		};
+		948FB0AA26CDE2F4006A0C82 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 948FB08626CDE2F2006A0C82 /* intune */;
+			targetProxy = 948FB0A926CDE2F4006A0C82 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		948FB09026CDE2F2006A0C82 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				948FB09126CDE2F2006A0C82 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		948FB09526CDE2F3006A0C82 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				948FB09626CDE2F3006A0C82 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		948FB0AF26CDE2F4006A0C82 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		948FB0B026CDE2F4006A0C82 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		948FB0B226CDE2F4006A0C82 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = K9495WHFU9;
+				INFOPLIST_FILE = intune/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.box.intune;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		948FB0B326CDE2F4006A0C82 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = K9495WHFU9;
+				INFOPLIST_FILE = intune/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.box.intune;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		948FB0B526CDE2F4006A0C82 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = K9495WHFU9;
+				INFOPLIST_FILE = intuneTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.box.intuneTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/intune.app/intune";
+			};
+			name = Debug;
+		};
+		948FB0B626CDE2F4006A0C82 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = K9495WHFU9;
+				INFOPLIST_FILE = intuneTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.box.intuneTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/intune.app/intune";
+			};
+			name = Release;
+		};
+		948FB0B826CDE2F4006A0C82 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = K9495WHFU9;
+				INFOPLIST_FILE = intuneUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.box.intuneUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = intune;
+			};
+			name = Debug;
+		};
+		948FB0B926CDE2F4006A0C82 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = K9495WHFU9;
+				INFOPLIST_FILE = intuneUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.box.intuneUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = intune;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		948FB08226CDE2F2006A0C82 /* Build configuration list for PBXProject "intune" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				948FB0AF26CDE2F4006A0C82 /* Debug */,
+				948FB0B026CDE2F4006A0C82 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		948FB0B126CDE2F4006A0C82 /* Build configuration list for PBXNativeTarget "intune" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				948FB0B226CDE2F4006A0C82 /* Debug */,
+				948FB0B326CDE2F4006A0C82 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		948FB0B426CDE2F4006A0C82 /* Build configuration list for PBXNativeTarget "intuneTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				948FB0B526CDE2F4006A0C82 /* Debug */,
+				948FB0B626CDE2F4006A0C82 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		948FB0B726CDE2F4006A0C82 /* Build configuration list for PBXNativeTarget "intuneUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				948FB0B826CDE2F4006A0C82 /* Debug */,
+				948FB0B926CDE2F4006A0C82 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 948FB07F26CDE2F2006A0C82 /* Project object */;
+}
