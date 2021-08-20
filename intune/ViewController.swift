@@ -7,7 +7,6 @@
 
 import UIKit
 import IntuneMAMSwift
-import IntuneMAMSwiftStub
 
 class ViewController: UIViewController {
 
